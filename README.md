@@ -1,5 +1,5 @@
 # MaterialPager
-This project is ia mix up of Material Pager with Navigation Drawer
+This project is a mixup of Material ViewPager and Navigation Drawer
 
 Used Some Libraries in the Project. 
 1. Ken Burn Effect for  Moving Image effect.
