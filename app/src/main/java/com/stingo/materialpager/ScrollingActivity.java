@@ -1,4 +1,4 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.materialpager;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

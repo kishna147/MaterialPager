@@ -1,4 +1,4 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.materialpager;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 /**
  * Created by kishna.147 on 12/12/16.
  */
+
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the

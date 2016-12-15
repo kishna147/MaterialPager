@@ -1,9 +1,8 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.materialpager;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
-
 
 
 /**

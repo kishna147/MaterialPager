@@ -1,7 +1,7 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.materialpager;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by kishna.147 on 12/12/16.

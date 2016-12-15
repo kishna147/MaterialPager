@@ -1,4 +1,4 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.materialpager;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -7,10 +7,6 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Spannable;
-import android.text.SpannableString;
-import android.text.style.TypefaceSpan;
-import android.widget.Toast;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

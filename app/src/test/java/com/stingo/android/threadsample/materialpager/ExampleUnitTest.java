@@ -1,4 +1,4 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.android.threadsample.materialpager;
 
 import org.junit.Test;
 

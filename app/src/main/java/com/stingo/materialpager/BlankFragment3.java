@@ -1,4 +1,4 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.materialpager;
 
 
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 /**
  * Created by kishna.147 on 12/12/16.
  */
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link BlankFragment3#newInstance} factory method to

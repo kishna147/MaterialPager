@@ -1,4 +1,4 @@
-package com.example.android.threadsample.materialpager;
+package com.stingo.android.threadsample.materialpager;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
