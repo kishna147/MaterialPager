@@ -1,4 +1,4 @@
-package com.stingo.materialpager;
+package com.stingo.materialpager.activities;
 
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
@@ -21,6 +21,10 @@ import android.view.View;
 
 import com.bumptech.glide.Glide;
 import com.flaviofaria.kenburnsview.KenBurnsView;
+import com.stingo.materialpager.R;
+import com.stingo.materialpager.fragments.Fragment1;
+import com.stingo.materialpager.fragments.Fragment2;
+import com.stingo.materialpager.fragments.Fragment3;
 
 
 import java.util.ArrayList;
@@ -128,12 +132,12 @@ public class NavDrawer extends BaseActivity
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new BlankFragment(), "ONE");
-        adapter.addFragment(new BlankFragment1(), "TWO");
-        adapter.addFragment(new BlankFragment3(), "THREE");
-        adapter.addFragment(new BlankFragment(), "FOUR");
-        adapter.addFragment(new BlankFragment1(), "FIVE");
-        adapter.addFragment(new BlankFragment3(), "SIX");
+        adapter.addFragment(new Fragment2(), "ONE");
+        adapter.addFragment(new Fragment1(), "TWO");
+        adapter.addFragment(new Fragment3(), "THREE");
+        adapter.addFragment(new Fragment2(), "FOUR");
+        adapter.addFragment(new Fragment1(), "FIVE");
+        adapter.addFragment(new Fragment3(), "SIX");
         viewPager.setAdapter(adapter);
     }
 

@@ -1,6 +1,8 @@
-package com.stingo.materialpager;
+package com.stingo.materialpager.utils;
 
 import android.app.Application;
+
+import com.stingo.materialpager.R;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 

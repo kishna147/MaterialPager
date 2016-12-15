@@ -1,4 +1,4 @@
-package com.stingo.materialpager;
+package com.stingo.materialpager.fragments;
 
 
 import android.os.Bundle;
@@ -7,16 +7,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.stingo.materialpager.R;
+
 /**
  * Created by kishna.147 on 12/12/16.
  */
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link BlankFragment1#newInstance} factory method to
+ * Use the {@link Fragment1#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BlankFragment1 extends Fragment {
+public class Fragment1 extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -27,7 +29,7 @@ public class BlankFragment1 extends Fragment {
     private String mParam2;
 
 
-    public BlankFragment1() {
+    public Fragment1() {
         // Required empty public constructor
     }
 
@@ -37,11 +39,11 @@ public class BlankFragment1 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BlankFragment1.
+     * @return A new instance of fragment Fragment1.
      */
     // TODO: Rename and change types and number of parameters
-    public static BlankFragment1 newInstance(String param1, String param2) {
-        BlankFragment1 fragment = new BlankFragment1();
+    public static Fragment1 newInstance(String param1, String param2) {
+        Fragment1 fragment = new Fragment1();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

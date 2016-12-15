@@ -1,4 +1,4 @@
-package com.stingo.materialpager;
+package com.stingo.materialpager.activities;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -7,6 +7,8 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import com.stingo.materialpager.R;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

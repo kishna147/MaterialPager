@@ -1,4 +1,4 @@
-package com.stingo.materialpager;
+package com.stingo.materialpager.customviews;
 
 import android.content.Context;
 import android.util.AttributeSet;
