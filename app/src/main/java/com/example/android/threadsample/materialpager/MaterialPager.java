@@ -14,7 +14,7 @@ public class MaterialPager extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_material_pager);
 
-        // Under Development
+        // This Activity is Under Development
 
 
     }
