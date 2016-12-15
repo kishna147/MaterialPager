@@ -15,7 +15,7 @@ import android.widget.Toast;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 /**
- * Created by motionmagik on 12/9/16.
+ * Created by kishna.147 on 12/9/16.
  */
 
 public abstract  class BaseActivity extends AppCompatActivity {

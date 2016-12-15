@@ -4,6 +4,13 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
+
+
+/**
+ * Created by kishna.147 on 12/12/16.
+ */
+
+
 public class CustomTextView extends TextView {
 
     public CustomTextView(Context context) {

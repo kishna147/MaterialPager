@@ -30,6 +30,11 @@ import com.flaviofaria.kenburnsview.KenBurnsView;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Created by kishna.147 on 12/12/16.
+ */
+
 public class NavDrawer extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private TabLayout tabLayout;

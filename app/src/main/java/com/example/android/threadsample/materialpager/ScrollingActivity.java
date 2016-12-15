@@ -7,6 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+/**
+ * Created by kishna.147 on 12/12/16.
+ */
+
 public class ScrollingActivity extends AppCompatActivity {
 
     @Override
