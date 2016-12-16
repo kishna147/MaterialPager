@@ -22,9 +22,10 @@ import android.view.View;
 import com.bumptech.glide.Glide;
 import com.flaviofaria.kenburnsview.KenBurnsView;
 import com.stingo.materialpager.R;
-import com.stingo.materialpager.fragments.Fragment1;
-import com.stingo.materialpager.fragments.Fragment2;
-import com.stingo.materialpager.fragments.Fragment3;
+import com.stingo.materialpager.fragments.GalleryFragment;
+import com.stingo.materialpager.fragments.ImportFragment;
+import com.stingo.materialpager.fragments.SlideshowFragment;
+import com.stingo.materialpager.fragments.ToolFragment;
 
 
 import java.util.ArrayList;
@@ -132,12 +133,11 @@ public class NavDrawer extends BaseActivity
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Fragment2(), "ONE");
-        adapter.addFragment(new Fragment1(), "TWO");
-        adapter.addFragment(new Fragment3(), "THREE");
-        adapter.addFragment(new Fragment2(), "FOUR");
-        adapter.addFragment(new Fragment1(), "FIVE");
-        adapter.addFragment(new Fragment3(), "SIX");
+        adapter.addFragment(new ImportFragment(), "Import");
+        adapter.addFragment(new GalleryFragment(), "Gallery");
+        adapter.addFragment(new SlideshowFragment(), "Slideshow");
+        adapter.addFragment(new ToolFragment(), "Tools");
+
         viewPager.setAdapter(adapter);
     }
 
@@ -154,6 +154,11 @@ public class NavDrawer extends BaseActivity
         @Override
         public Fragment getItem(int position) {
             return mFragmentList.get(position);
+        }
+
+        @Override
+        public int getItemPosition(Object object) {
+            return super.getItemPosition(object);
         }
 
         @Override
@@ -211,17 +216,21 @@ public class NavDrawer extends BaseActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
+            viewPager.setCurrentItem(0);
+
+         //  viewPager.getAdapter().getItemPosition(0);
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+            viewPager.setCurrentItem(1);
 
         } else if (id == R.id.nav_slideshow) {
-
+            viewPager.setCurrentItem(2);
         } else if (id == R.id.nav_manage) {
-
+            viewPager.setCurrentItem(3);
         } else if (id == R.id.nav_share) {
-
+        //     viewPager.setCurrentItem(4);
         } else if (id == R.id.nav_send) {
-
+         //    viewPager.setCurrentItem(5);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
