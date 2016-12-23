@@ -24,6 +24,7 @@
         android:background="#D949234A"
         app:itemTextColor="#ffffff"
         app:itemIconTint="#ffffff"
+        app:theme="@style/MyTheme.NavMenu"
 
 
         app:headerLayout="@layout/nav_header_nav_drawer"
