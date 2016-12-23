@@ -1,5 +1,6 @@
 package com.stingo.materialpager.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -15,6 +16,8 @@ public class MaterialPager extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_material_pager);
+
+      //  startService(new Intent(MaterialPager.this, ServiceName.class));
 
         // This Activity is Under Development.
 
